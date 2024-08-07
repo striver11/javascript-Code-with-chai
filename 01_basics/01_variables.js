@@ -10,6 +10,11 @@
 //  TemporalDead Zone  ||Does not have a temporal dead zone        ||           Has a temporal dead zone	     ||     Has a temporal dead zone
 
 
+
+/*
+please don't use var only use let and const due to the scope issue
+*/
+
 console.log("+++++++++++++++++  var example ++++++++++++++++++++++++++")
 function exampleVar() {
     console.log(x); // undefined
@@ -56,3 +61,15 @@ obj.key = 'newValue'; // Allowed
 
 
 
+
+console.log("#########################  not defined ####################")
+var a;
+console.log(a);
+let b;
+console.log(b)
+
+
+
+console.log("&&&&&&&&&&&&&&&&&&&&&&&&&  no datatype like var or let but we can use it javascript &&&&&&&&&&&&&&&")
+variable="Hello";
+console.log(variable);
